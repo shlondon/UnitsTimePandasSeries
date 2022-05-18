@@ -8,7 +8,7 @@ class unitsTimeDaily:
         return None
 
     # Create time series metric with week as units of time
-    def unit_time_weekly(self, daily_time_series):
+    def weekly(self, daily_time_series):
         """Create DocString
         input: daily_time_series is a pandas.series object where
             index is a datetime.timestamp object
