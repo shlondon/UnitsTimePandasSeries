@@ -1,10 +1,10 @@
 # coding: utf-8
 
 # Class
-class unitsTimeDaily:
+class unitsTime:
 
     # Init
-    def __init__(self, pandas_series):
+    def __init__(self):
         return None
 
     # Create time series metric with week as units of time
@@ -37,7 +37,7 @@ class unitsTimeDaily:
             print('There isn´t enough data to create time series weekly')
             return None
 
-    def unit_time_monthly(self, daily_time_series):
+    def monthly(self, daily_time_series):
         """Create DocString
         input: daily_time_series is a pandas.series object where
             index is a daily datetime.timestamp object
