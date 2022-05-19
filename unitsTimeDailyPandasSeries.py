@@ -66,7 +66,7 @@ class unitsTime:
             return None
 
     # Create time series metric with year as units of time
-    def unit_time_yearly(self, daily_time_series):
+    def yearly(self, daily_time_series):
         """Create DocString
         input: daily_time_series is a pandas.series object where
             index is a daily datetime.timestamp object
